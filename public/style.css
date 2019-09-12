@@ -4,45 +4,114 @@ body{
    padding: 0;
 }
 
+div{
+   margin: 0;
+   padding: 0;   
+   border: 0;
+   vertical-align: middle;
+}
+
+footer{
+   font-family: "Quicksand";
+}
+
+/* Header */
+
 header{
    height: 150px;
 }
 
 .header-container{
    height: 150px;
-   background-size: cover !important;
-   background-position: center center !important;
 }
 
 .container {
    width: 1200px;
    height: 150px;
-   padding-right: 15px;
-   padding-left: 15px;
    margin-right: auto;
    margin-left: auto;
+   clear: both;
+   display: table;
 }
 
 .horizontal-container{
-   margin-right: -15px;
-   margin-left: -15px;
+   height: 150px;
+   text-align: center;
 }
 
 .header-cons {
-   position: relative;
-   top: 50%;
+   min-height: 1px;
    width: 33.33333333%;
    float: left;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
 }
 
-div{
+/* Headline */
+
+.home{
+   font-family: 'Damion', cursive;
+   font-size: 65pt;
+}
+
+/* Social */
+
+ul#social{
+   list-style: none;
+   list-style-type: none;
+}
+
+img{
+   padding-left: 5px;
+   height: 35px;
+   width: 35px;
+}
+
+/* Main Menu */
+
+.main-menu{
+   /* background-size: 5px 8px !important; */
+   line-height: 1;
+}
+
+.navbar{
+   position: relative;
+}
+
+ul#menu{
+   text-align: center;
+}
+
+ul#menu li{
+   display: inline-block;
+}
+
+ul#menu li a {
+   font-size: 14pt;
+   padding: 20px;
+   font-family: "Quicksand";
+}
+
+/* Rules */
+
+.vertical-middle{
+   top: 50%;
+   position: relative;
+   transform: perspective(1px) translateY(-50%);
+   -webkit-transform: perspective(1px) translateY(-50%);
+}
+
+.position-middle{
+   text-align: center;
    margin: 0;
-   padding: 0;   
-   border: 0;
-   font-size: 100%;
-   font: inherit;
-   vertical-align: baseline;
+}
+.pull-right{
+   float: right !important;
+}
+
+.marginb20 {
+   margin-bottom: 20px !important;
+}
+
+.link{
+   text-decoration: none;
+   color: black;
 }
