@@ -1,74 +1,78 @@
-body{
+html, body{
+   height: 100%;
    background: #FFF;
    margin: 0;
    padding: 0;
+   font-family: "Quicksand";
+}
+
+.content{
+   min-height: 100%;
 }
 
 div{
    margin: 0;
    padding: 0;   
    border: 0;
-   vertical-align: middle;
+   vertical-align: baseline;
 }
 
-footer{
-   font-family: "Quicksand";
-}
+/***** Header *****/
+/*------------------------------------------------------------------------------*/
 
-/* Header */
-
-header{
+.header-height{
    height: 150px;
 }
 
-.header-container{
-   height: 150px;
-}
-
-.container {
+.main-container {
    width: 1200px;
-   height: 150px;
    margin-right: auto;
    margin-left: auto;
    clear: both;
    display: table;
 }
 
-.horizontal-container{
-   height: 150px;
+.container{
    text-align: center;
 }
 
-.header-cons {
+.third-container {
    min-height: 1px;
    width: 33.33333333%;
    float: left;
 }
 
-/* Headline */
+/***** Headline ******/
+/*------------------------------------------------------------------------------*/
 
 .home{
    font-family: 'Damion', cursive;
-   font-size: 65pt;
+   font-size: 60pt;
 }
 
-/* Social */
+.home-bottom{
+   font-family: 'Damion', cursive;
+   font-size: 18pt;
+}
 
-ul#social{
+/***** Social *****/
+/*------------------------------------------------------------------------------*/
+
+ul#social, ul#contact{
    list-style: none;
    list-style-type: none;
 }
 
 img{
    padding-left: 5px;
-   height: 35px;
-   width: 35px;
+   height: 30px;
+   width: 30px;
 }
 
-/* Main Menu */
+/***** Main Menu *****/
+/*------------------------------------------------------------------------------*/
 
 .main-menu{
-   /* background-size: 5px 8px !important; */
    line-height: 1;
 }
 
@@ -90,7 +94,21 @@ ul#menu li a {
    font-family: "Quicksand";
 }
 
-/* Rules */
+/***** Footer *****/
+/*------------------------------------------------------------------------------*/
+
+footer{
+   margin-top: -50px;
+   background-color: #50375F;
+   color: white;
+}
+
+.footer-height{
+   height: 80px;
+}
+
+/***** Rules *****/
+/*------------------------------------------------------------------------------*/
 
 .vertical-middle{
    top: 50%;
@@ -99,7 +117,7 @@ ul#menu li a {
    -webkit-transform: perspective(1px) translateY(-50%);
 }
 
-.position-middle{
+.position-center{
    text-align: center;
    margin: 0;
 }
@@ -107,11 +125,16 @@ ul#menu li a {
    float: right !important;
 }
 
-.marginb20 {
+.margin-bottom-20 {
    margin-bottom: 20px !important;
 }
 
-.link{
+.link-black{
    text-decoration: none;
    color: black;
+}
+
+.link-white{
+   text-decoration: none;
+   color: white;
 }
