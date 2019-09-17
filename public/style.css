@@ -10,20 +10,6 @@ html, body{
    min-height: 100%;
 }
 
-div{
-   margin: 0;
-   padding: 0;   
-   border: 0;
-   vertical-align: baseline;
-}
-
-/***** Header *****/
-/*------------------------------------------------------------------------------*/
-
-.header-height{
-   height: 150px;
-}
-
 .main-container {
    width: 1200px;
    margin-right: auto;
@@ -40,6 +26,20 @@ div{
    min-height: 1px;
    width: 33.33333333%;
    float: left;
+}
+
+div{
+   margin: 0;
+   padding: 0;   
+   border: 0;
+   vertical-align: baseline;
+}
+
+/***** Header *****/
+/*------------------------------------------------------------------------------*/
+
+.header-height{
+   height: 150px;
 }
 
 /***** Headline ******/
@@ -63,7 +63,7 @@ ul#social, ul#contact{
    list-style-type: none;
 }
 
-img{
+img.icon{
    padding-left: 5px;
    height: 30px;
    width: 30px;
@@ -89,6 +89,30 @@ ul#menu li a {
    padding: 20px;
 }
 
+/***** Content *****/
+/*------------------------------------------------------------------------------*/
+
+.project-header{
+   font-weight: thin;
+   font-family: "Roboto";
+}
+
+.project-container{
+   padding: 20px;
+}
+
+img.project{
+   width: 1000px;
+   opacity: 1.0;
+   filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img.project:hover{
+   box-shadow: 0 0 10px #ccc;
+   opacity: 0.7;
+   filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 /***** Footer *****/
 /*------------------------------------------------------------------------------*/
 
@@ -102,7 +126,7 @@ footer{
    height: 80px;
 }
 
-ul#contact li a{
+div#contact a{
    font-size: 14pt;
    padding: 20px;
 }
@@ -127,6 +151,10 @@ ul#contact li a{
 
 .margin-bottom-20 {
    margin-bottom: 20px !important;
+}
+
+.margin-bottom-50 {
+   margin-bottom: 50px !important;
 }
 
 .link-black{
