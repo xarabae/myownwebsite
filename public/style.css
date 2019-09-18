@@ -76,18 +76,26 @@ img.icon{
    line-height: 1;
 }
 
-ul#menu{
+input.menu-button{
    text-align: center;
+   font-size: 14pt;
+   padding: 20px;
+   border:0 none;
+   background-color: #FFF;
+   font-family: "Quicksand", sans-serif;
+}
+
+/* ul#menu{
+
 }
 
 ul#menu li{
-   display: inline-block;
+
 }
 
-ul#menu li a {
-   font-size: 14pt;
-   padding: 20px;
-}
+ul#menu li a{
+
+} */
 
 /***** Content *****/
 /*------------------------------------------------------------------------------*/
